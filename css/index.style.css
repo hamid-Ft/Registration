@@ -1,0 +1,50 @@
+body {
+     font-family:Arial, Sans-Serif;
+}
+body{
+	font-family: "tahoma" !important;
+}
+body{
+	background-image: url("https://static.vecteezy.com/system/resources/previews/000/618/236/non_2x/abstract-gray-and-white-polygon-mosaic-background-vector.jpg");
+	background-size: 100%;
+	background-color:#cccccc;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a{
+ padding: 10px 25px 8px;
+     color: #fff;
+     background-color: #0067ab;
+     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+     font-size: 12px; 
+     border: 1px solid #2eb82e;
+     border-radius: 5px;
+     margin-top: 10px;
+     cursor:pointer;
+	 font-family: "tahoma" !important;
+}
+
+table,th,td {
+       margin-top: 20px;
+	   padding: 10px;
+       border: 1px solid #6610f2;
+       border-collapse: collapse;
+     }
+		 	.TFtable{
+		 		width:100%;
+		 		border-collapse:collapse;
+		 	}
+		 	.TFtable td{
+		 		padding:7px; border:#4e95f4 1px solid;
+		 	}
+		 	.TFtable tr{
+		 		background: #b8d1f3;
+		 	}
+		 	.TFtable tr:nth-child(odd){
+		 		background: #b8d1f3;
+		 	}
+		 	.TFtable tr:nth-child(even){
+		 		background: #dae5f4;
+		 	}

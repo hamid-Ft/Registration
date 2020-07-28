@@ -1,0 +1,91 @@
+body {
+     font-family:Arial, Sans-Serif;
+}
+body{
+	font-family: "tahoma" !important;
+}
+body{
+	  background-color: #99e6ff;
+    background-image: url("https://cloudey.net/wp-content/uploads/2018/09/trianglify.png.webp");
+	  background-size: 100%;
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.divposition{
+    position: absolute;
+    align-items: center;
+	display: flex;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:-100px;
+    margin-left:-170px;
+	width: 300px;
+	border-radius: 10px;
+	padding: 20px 20px 20px;
+	background-color: #00bfff;
+    animation: welcome;
+    animation-duration: 1s;
+    animation-delay: 0s;
+   }
+
+   @keyframes welcome {
+  0%   {transform : scale(0);}
+  80% {transform : scale(1.1);}
+  100% {transform: scale(1);}
+}
+#greetngs:hover{
+  color: #002db3;
+  -webkit-animation:spin 4s normal forwards;
+   -moz-animation:spin 4s normal forwards;
+   animation:spin 4s normal forwards;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.icons{
+	border-radius: 50%;
+}
+.form{
+     width: 250px;
+     margin: 0 auto;
+}
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 12px;
+     margin-top: 10px;
+	 font-family: "tahoma" !important;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color: #0067ab;
+     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+     font-size: 12px;
+     border: 1px solid #0164a5;
+     border-radius: 5px;
+     margin-top: 10px;
+	 margin-bottom: 10px;
+     cursor:pointer ;
+	 font-family: "tahoma" !important;
+}
+input[type='submit']:hover {
+     background-color: #024978;
+}
